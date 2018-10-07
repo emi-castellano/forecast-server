@@ -1,0 +1,21 @@
+{
+  "name": "forecast-server",
+  "version": "1.0.0",
+  "description": "NodeJS server for authentication",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Emiliano Castellano",
+  "license": "ISC"
+}
